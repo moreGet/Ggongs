@@ -87,3 +87,5 @@ function printBackTick(name, age) {
 
 const backTickStrValue = printBackTick("김예지", 25);
 document.write(backTickStrValue);
+
+## 함수 객체 구현 (Class 비슷)
