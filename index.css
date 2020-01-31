@@ -1,3 +1,4 @@
+/* class */
 body {
     background-color: peru;
 }
@@ -5,3 +6,10 @@ body {
 h1 {
     color: black;
 }
+/* class */
+
+/* id */
+#title {
+    color: aquamarine;
+}
+/* id */
