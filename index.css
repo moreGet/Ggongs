@@ -4,24 +4,50 @@ body {
 
 h1 {
     color: #ecf0f1;
-    font-size: 90px;
+    font-size: 150px;
+    text-align: center;
 }
 
 /* class */
-.form, greetings {
+.form {
     display: none;
+    text-align: center;
+}
+
+.greetings {
+    text-align: center;
+}
+
+.weather {
+    text-align: center;
+}
+
+.toDoForm {
+    text-align: center;
 }
 
 .showing {
     display: block;
 }
 
-.bgImage {
+/* .bgImage {
     position: absolute;
     top: 0;
     left: 0;
     width: 100;
     height: 100;
+    z-index: -1;
+    animation: fadeIn 0.5s linear;
+} */
+
+.bgImage {
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
     z-index: -1;
     animation: fadeIn 0.5s linear;
 }
