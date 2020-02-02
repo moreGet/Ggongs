@@ -1,15 +1,37 @@
-/* class */
 body {
-    background-color: peru;
+    background-color: #34495e;
 }
 
 h1 {
-    color: black;
+    color: #ecf0f1;
+    font-size: 90px;
+}
+
+/* class */
+.form, greetings {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+.bgImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100;
+    height: 100;
+    z-index: -1;
+    animation: fadeIn 0.5s linear;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 /* class */
-
-/* id */
-#title {
-    color: aquamarine;
-}
-/* id */
