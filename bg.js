@@ -40,5 +40,5 @@ function init() {
     setInterval(() => {
         const randomNumber = genRandom();
         paintImage(randomNumber);
-    }, 3000);
+    }, 2000);
 } init();
