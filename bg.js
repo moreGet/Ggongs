@@ -3,9 +3,20 @@ const body = document.querySelector("body");
 
 const IMG_NUMBER = 8;
 
-function handleImgLoad(params) {
-    console.log("바뀐댱");
-}
+// function getTime(param) {
+//     const date = new Date();
+//     const seconds = date.getSeconds();
+
+//     let vaildValue = seconds %= param;
+
+//     if(vaildValue == 0) {
+//         return true;
+//     }
+// }
+
+// function handleImgLoad(params) {
+//     console.log("바뀐댱");
+// }
 
 function paintImage(imgIdx) {
     const image = new Image();
@@ -25,6 +36,9 @@ function genRandom() {
 }
 
 function init() {
-    const randomNumber = genRandom();
-    paintImage(randomNumber);
+    
+    setInterval(() => {
+        const randomNumber = genRandom();
+        paintImage(randomNumber);
+    }, 3000);
 } init();
